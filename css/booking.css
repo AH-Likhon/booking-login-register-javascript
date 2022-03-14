@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #10101b;
+  height: 100vh;
+  color: wheat;
+}
+.container {
+  margin-top: 50px;
+}
+
+.half-width {
+  height: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.button-row {
+  width: 100%;
+}
+
+.button {
+  width: 20%;
+  background: #d6e8d4;
+  color: #000;
+  padding: 10px 0;
+  margin: 5px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: -4px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#occupied {
+  background-color: #f7cfcc;
+  color: #10101b;
+}
+
+.booking-btn {
+  border: none;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: #495bc3;
+  color: #fff;
+}
+.cancel-btn {
+  border: none;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: #ffe6cc;
+  color: #000;
+}
